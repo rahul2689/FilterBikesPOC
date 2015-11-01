@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e7131e</color>
+    <color name="colorPrimaryDark">#e7131e</color>
+    <color name="colorAccent">#ef060e</color>
+    <color name="list_divider">#bcb9ba</color>
+    <color name="toolbar_bg">#f40713</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bike_title_clr">#c60909</color>
+    <color name="normal_text_clr">#918e8e</color>
+    <color name="list_bg">#76c1bdbd</color>
+    <color name="btn_apply_filter">#f604b715</color>
+</resources>

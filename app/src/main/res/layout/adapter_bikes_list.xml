@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/iv_bikes_adapter_img"
+        android:layout_width="0dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.5"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="12dp">
+
+        <TextView
+            android:id="@+id/tv_adapter_bikes_bike_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="Bajaj Pulsar 200"
+            android:textColor="@color/bike_title_clr"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_adapter_bikes_bike_capacity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200cc"
+                android:textColor="@color/normal_text_clr"
+                android:textSize="16dp"
+                android:textStyle="normal" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="12dp"
+                android:background="@color/normal_text_clr" />
+
+            <TextView
+                android:id="@+id/tv_adapter_bikes_bike_mileage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="72Kmpl"
+                android:textColor="@color/normal_text_clr"
+                android:textSize="16dp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_adapter_bikes_bike_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Rs. 80,710 onwards"
+            android:textColor="@color/normal_text_clr"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:checked="false"
+            android:clickable="true"
+            android:text="Compare"
+            android:textColor="@color/normal_text_clr"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
